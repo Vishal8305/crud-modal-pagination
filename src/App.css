@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.table{
+  border-collapse: collapse;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+#th{
+  border: none;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  background-color: rgb(98, 98, 254);
+  color: white;
+}
+
+#td {
+  border: none;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.myheader{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(98, 98, 254);
+  width: 100%;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#button1{
+  margin: 5px;
+  color: rgb(103, 103, 255);
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 10px;
+  border: 0.5px solid blue;
+  padding: 6px;
+  cursor: pointer;
+}
+#button2{
+  margin: 5px;
+  color: rgb(216, 0, 0);
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 10px;
+  border: 0.5px solid rgb(215, 0, 0);
+  padding: 6px;
+  cursor: pointer;
+
+}
+#thetable{
+
+  justify-content: center;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(98, 98, 254);
+  font-size: 25px;
+ 
+}
+.search{
+  margin: 20px;
+}
+
+.image-container{
+  display: block;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+}
+.image{
+height: 50px;
+width: 50px;
+margin: 10px;
+padding: 5px;
+border-radius: 50%;
+}
+
+.pagination{
+  display: block;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  background-color: rgba(220, 228, 245, 0.263);
+  padding: 20px;
+
+}
+li {
+  display: inline;
+  flex-direction: column;
+}
+a {
+  margin: 5px;
+  padding: 10px;
+  display: inline;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.active{
+  background-color:rgb(98, 98, 254);
+}
+th{
+  height: 50px;
+  font-size: 1.1rem;
+}
+tbody:nth-child(even) {
+  background-color: rgb(245, 242, 242);
+}
+.sort-btn{
+  margin-bottom: 20px;
+  margin-left: 20px;
+  height: 30px;
+  width: 60px;
+  font-weight: bold;
+  border-radius: 20px;
+}
